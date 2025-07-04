@@ -7,20 +7,20 @@ It is especially useful in:
 -  Restricted access areas: Enable secure identity verification
 Built using OpenCV, dlib, and Python 3.12, it supports both online and offline setups with a precompiled .whl file to install dlib easily.
 How to Set Up and Run the Project
-Step 1: Check Python version
+# Step 1: Check Python version
     - Make sure you're using Python 3.12
     - python --version
       
-STEP 2: Create a virtual environment
+# STEP 2: Create a virtual environment
     - python -m venv env      # Create virtual environment
     - cd env\Scripts          # Go into Scripts folder
     - activate                # Activate the virtual environment
-  # For macOS/Linux users: source env/bin/activate
+    - For macOS/Linux users: source env/bin/activate
   
-STEP 3: Install dependencies    
+# STEP 3: Install dependencies    
     - pip install path\to\dlib‑19.XX.XX‑cp312‑cp312‑win_amd64.whl        # First install dlib from the precompiled .whl file (offline setup).
     - pip install -r requirements.txt
     
-STEP 4: Run the application
+# STEP 4: Run the application
     - cd path\to\facerecog      # Navigate to the root folder if you're not already there.
     - python facerecog.py       # Run the face recognition script.
